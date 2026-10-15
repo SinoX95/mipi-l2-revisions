@@ -1,0 +1,15 @@
+# Supports de cours : propriété des auteurs / de l'université, non publiés
+public/pdfs/
+
+# Firebase
+.firebase/
+firebase-debug.log*
+
+# Node / tests
+node_modules/
+tests/*.png
+*.log
+
+# Système
+.DS_Store
+Thumbs.db

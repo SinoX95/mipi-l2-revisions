@@ -1,0 +1,13 @@
+{
+  "name": "mipi-l2-revisions",
+  "private": true,
+  "description": "Site de révision Licence Informatique L2 (MIPI) — HTML/CSS/JS statique sur Firebase Hosting",
+  "scripts": {
+    "check": "node tests/check_data.js",
+    "serve": "cd public && python -m http.server 8765",
+    "test:e2e": "node tests/e2e.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}
